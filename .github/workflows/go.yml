@@ -20,11 +20,12 @@ jobs:
 
     - name: Build
       run: go build -v ./...
-
-    - name: Test
-    - uses: actions/checkout@v2
     
-    - run: apt install inkscape
-    - run: go test -v ./...
+    - name: Add Deps
+      run: apt install inkscape
+
+
+    - name: Test    
+      run: go test -v ./...
       
   
