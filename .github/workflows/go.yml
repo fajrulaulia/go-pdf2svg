@@ -22,7 +22,7 @@ jobs:
       run: go build -v ./...
     
     - name: Add Deps
-      run: sudo apt install inkscape
+      run: sudo add-apt-repository ppa:inkscape.dev/stable -y && sudo apt -y update && sudo apt install -y inkscape 
 
 
     - name: Test    
