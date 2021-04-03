@@ -22,7 +22,8 @@ jobs:
       run: go build -v ./...
 
     - name: Test
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+    
     - run: apt install inkscape
     - run: go test -v ./...
       
