@@ -1,6 +1,7 @@
-# go-frompdf
+# go-pdf2svg
 
-go-frompdf is a Go package for convert PDF to SVG and use for Web and Easy to use it.
+go-pdf2svg is a Go package for convert PDF to SVG and use for Web and Easy to use it.
+SVG is best for high quality for web.
 
 ## Installation
 
@@ -17,11 +18,11 @@ package main
 
 import (
 	"log"
-	gofrompdf "github.com/fajrulaulia/go-frompdf"
+	c "github.com/fajrulaulia/go-frompdf"
 )
 
 func main() {
-	err := gofrompdf.Exporter("DirOfFilePDF.pdf", "newSvgFile")
+	err := c.Exporter("DirOfFilePDF.pdf", "newSvgFile")
 	if err != nil {
 		log.Fatal(err)
 		return
@@ -36,3 +37,8 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+[FAJRUL AULUA](https://twitter.com/fajrulgopher)
+
+
