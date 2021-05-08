@@ -7,6 +7,8 @@ SVG is best for high quality for web.
 
 Use the apt for install depedencies
 
+This package required `inkscape`
+
 ```bash
 $ apt install inkscape
 ```
