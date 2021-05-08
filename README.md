@@ -5,12 +5,11 @@ SVG is best for high quality for web.
 
 ## Installation
 
-Use the apt for install depedencies
-
 This package required `inkscape`
-
 ```bash
-$ apt install inkscape
+# apt install inkscape # debian, Ubuntu
+# dnf install inkscape # Fedora, Redhat
+
 ```
 
 ## Usage
@@ -20,7 +19,7 @@ package main
 
 import (
 	"log"
-	c "github.com/fajrulaulia/go-frompdf"
+	c "github.com/fajrulaulia/go-pdf2svg"
 )
 
 func main() {
