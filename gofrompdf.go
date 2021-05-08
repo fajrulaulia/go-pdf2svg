@@ -1,4 +1,4 @@
-package gofrompdf
+package svgpdf
 
 import (
 	"errors"
@@ -9,7 +9,7 @@ import (
 
 type App struct{}
 
-func ExportToSVG(source string, newFile string) error {
+func Exporter(source string, newFile string) error {
 	var c *App
 	if !c.isValidFile(source) {
 		return errors.New("Invalid Source File")

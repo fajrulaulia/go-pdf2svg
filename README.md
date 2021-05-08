@@ -21,7 +21,7 @@ import (
 )
 
 func main() {
-	err := gofrompdf.ExportToSVG("DirOfFilePDF.pdf", "newSvgFile")
+	err := gofrompdf.Exporter("DirOfFilePDF.pdf", "newSvgFile")
 	if err != nil {
 		log.Fatal(err)
 		return

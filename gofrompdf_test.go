@@ -1,4 +1,4 @@
-package gofrompdf
+package svgpdf
 
 import (
 	"io/ioutil"
@@ -27,7 +27,7 @@ func TestIsValidFile(t *testing.T) {
 }
 
 func TestCreateFile(t *testing.T) {
-	err := ExportToSVG("contoh.pdf", "newSvgLetter")
+	err := Exporter("contoh.pdf", "newSvgLetter")
 	assert.Equal(t, err, nil, "Expected not error")
 	var app App
 	result := app.isValidFile("newSvgLetter.svg")

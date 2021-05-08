@@ -1,5 +1,5 @@
-module github.com/fajrulaulia/go-frompdf
+module github.com/fajrulaulia/go-pdf2svg
 
-go 1.13
+go 1.16
 
 require github.com/stretchr/testify v1.7.0
