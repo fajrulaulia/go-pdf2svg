@@ -1,9 +1,9 @@
 # go-pdf2svg
+[![Go](https://github.com/fajrulaulia/go-pdf2svg/actions/workflows/go.yml/badge.svg)](https://github.com/fajrulaulia/go-pdf2svg/actions/workflows/go.yml)
 
 go-pdf2svg is a Go package for convert PDF to SVG and use for Web and Easy to use it.
 SVG is best for high quality for web.
 
-[![Go](https://github.com/fajrulaulia/go-pdf2svg/actions/workflows/go.yml/badge.svg)](https://github.com/fajrulaulia/go-pdf2svg/actions/workflows/go.yml)
 
 ## Installation
 
